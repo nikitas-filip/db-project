@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html style="background-image:url(background.jpg);">
+
+<head>
+
+	<title>Insert Vehicle</title>
+
+	<link type="text/css" rel="stylesheet" href="stylesheet_sympl.css"/>
+	<link rel="icon" href="favicon.png"/>
+
+</head>
+
+<body>
+
+	<div style="margin:auto;">
+
+		<h1 style="text-align:center;color:#77419b;font-family:Lucida Handwriting;color:darkred;"><strong>Insert a Vehicle</strong></h1>
+	
+	</div>
+
+	<form action="Vehicle-Insert.php">
+	
+	<input type="text" class="inputs" required="required" placeholder="License Plate" name="LicensePlate">
+	<br>
+	
+	<input type="text" class="inputs" required="required" placeholder="Model" name="Model">
+	<br>
+	
+	<select name="Type">
+	<option value="CAR">Car</option>
+	<option value="MINI VAN">Mini Van</option>
+	<option value="MOTORCYCLE">Motorcycle</option>
+	<option value="TRUCK">Truck</option>
+	<option value="ATV">ATV</option>
+	</select>
+	<br>
+	<br>
+	<input type="text" class="inputs" required="required" placeholder="Make" name="Make">
+	<br>
+	
+	<input type="text" class="inputs" required="required" placeholder="Year" name="Year">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="Kilometers" name="Kilometers">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="CC" name="CC">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="Horsepower" name="HorsePower">
+	<br>
+	
+	<input type="text" class="inputs" required="required" placeholder="Damages" name="Damages">
+	<br>
+
+	<input type="text" class="inputs" required="required" placeholder="Malfunctions" name="Malfunctions">
+	<br>
+	<br>
+	<br>
+	<p style="font-size:20px; color:white; font-family:Lucida Handwriting;text-align:center; padding-right:320px;">Next Service</p></td>
+	<input type="date" class="inputs" required="required" placeholder="Next Service" name="NextService">
+	<br>
+	<br>
+	<br>
+	<p style="font-size:20px; color:white; font-family:Lucida Handwriting;text-align:center; padding-right:140px;">Insurance Expiration Date</p></td>
+	<input type="date" class="inputs" required="required" placeholder="Insurance Expiration Date" name="InsuranceExpDate">
+	<br>
+	<br>
+	<br>
+	<p style="font-size:20px; color:white; font-family:Lucida Handwriting;text-align:center; padding-right:320px;">Last Service</p></td>
+	<input type="date" class="inputs" required="required" placeholder="Last Service" name="LastService">
+	<br>
+	
+	<select name="StoreID">
+	<option value="1">1-Athens</option>
+	<option value="2">2-Patra</option>
+	<option value="3">3-Rhodes</option>
+	<option value="4">4-Heraklion</option>
+	<option value="5">5-Thessaloniki</option>
+	</select>
+	<br>
+	<br>
+	<input type="submit" value="Submit">
+	</form>
+
+	<p style="text-align:center;font-size:90px"><strong> </strong></p>
+	<div style="margin:auto;">
+		<h2 style="text-align:center;"><a href="Insert.html"><img src="Back.png" alt="Back" width="50px" height="50px"></a></h2>	
+	</div>
+
+</body>
+
+</html>
